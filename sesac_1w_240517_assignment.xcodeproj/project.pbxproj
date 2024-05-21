@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		813B36282BFC1B9B00A8CD19 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B36272BFC1B9B00A8CD19 /* LoginViewController.swift */; };
 		815A76D12BF99A8D00904AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815A76D02BF99A8D00904AAF /* AppDelegate.swift */; };
 		815A76D32BF99A8D00904AAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815A76D22BF99A8D00904AAF /* SceneDelegate.swift */; };
 		815A76D52BF99A8D00904AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815A76D42BF99A8D00904AAF /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		813B36272BFC1B9B00A8CD19 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		815A76CD2BF99A8D00904AAF /* sesac_1w_240517_assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sesac_1w_240517_assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		815A76D02BF99A8D00904AAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		815A76D22BF99A8D00904AAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				815A76DB2BF99A8E00904AAF /* LaunchScreen.storyboard */,
 				815A76DE2BF99A8E00904AAF /* Info.plist */,
 				81605AF52BF99EDD0056B6E9 /* EmotionDiaryViewController.swift */,
+				813B36272BFC1B9B00A8CD19 /* LoginViewController.swift */,
 			);
 			path = sesac_1w_240517_assignment;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813B36282BFC1B9B00A8CD19 /* LoginViewController.swift in Sources */,
 				81605AF62BF99EDD0056B6E9 /* EmotionDiaryViewController.swift in Sources */,
 				81605AF82BF9B1A30056B6E9 /* newlySearchViewController.swift in Sources */,
 				815A76D52BF99A8D00904AAF /* ViewController.swift in Sources */,
