@@ -182,25 +182,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BMI 계산기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWV-jo-A0N">
-                                <rect key="frame" x="20" y="59" width="79.666666666666671" height="21"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <rect key="frame" x="20" y="99" width="147.66666666666666" height="38.333333333333343"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="당신의 BMI 지수를 알려드릴게요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2C2-8x-h3V">
-                                <rect key="frame" x="20.000000000000014" y="92" width="224.33333333333337" height="21"/>
+                                <rect key="frame" x="20.000000000000014" y="149.33333333333334" width="224.33333333333337" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="키 (숫자로만 입력해주세요.)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y33-zI-Idw">
-                                <rect key="frame" x="20" y="233" width="187.33333333333334" height="21"/>
+                                <rect key="frame" x="20" y="290.33333333333331" width="187.33333333333334" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i4S-BL-ENq">
-                                <rect key="frame" x="20" y="266" width="353" height="44"/>
+                                <rect key="frame" x="20" y="323.33333333333331" width="353" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="3KS-Al-8cb"/>
                                 </constraints>
@@ -211,13 +211,13 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="몸무게 (숫자로만 입력해주세요.)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6t5-gS-FgT">
-                                <rect key="frame" x="19.999999999999986" y="334" width="216.66666666666663" height="21"/>
+                                <rect key="frame" x="19.999999999999986" y="391.33333333333331" width="216.66666666666663" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MQv-zZ-AmA">
-                                <rect key="frame" x="20" y="367" width="353" height="44"/>
+                                <rect key="frame" x="20" y="424.33333333333331" width="353" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="PN7-84-JMy"/>
                                 </constraints>
@@ -228,7 +228,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAT-aT-oBU">
-                                <rect key="frame" x="193.33333333333337" y="423" width="179.66666666666663" height="35"/>
+                                <rect key="frame" x="193.33333333333337" y="480.33333333333331" width="179.66666666666663" height="34.999999999999943"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="랜덤으로 BMI 계산하기">
                                     <color key="baseForegroundColor" systemColor="systemPinkColor"/>
@@ -238,7 +238,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8aA-wN-AO1">
-                                <rect key="frame" x="20" y="506" width="353" height="35"/>
+                                <rect key="frame" x="20" y="563.33333333333337" width="353" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="BMI 결과 확인"/>
                                 <connections>
@@ -252,6 +252,7 @@
                             <constraint firstItem="MQv-zZ-AmA" firstAttribute="centerX" secondItem="fKb-AR-Mwo" secondAttribute="centerX" id="21r-aj-3yF"/>
                             <constraint firstItem="MQv-zZ-AmA" firstAttribute="leading" secondItem="JQz-qN-Vuc" secondAttribute="leading" constant="20" id="4m8-dM-58q"/>
                             <constraint firstItem="2C2-8x-h3V" firstAttribute="leading" secondItem="JQz-qN-Vuc" secondAttribute="leading" constant="20" id="65C-O2-Vy5"/>
+                            <constraint firstItem="MWV-jo-A0N" firstAttribute="top" secondItem="JQz-qN-Vuc" secondAttribute="top" constant="40" id="6VY-LM-k0P"/>
                             <constraint firstItem="i4S-BL-ENq" firstAttribute="leading" secondItem="JQz-qN-Vuc" secondAttribute="leading" constant="20" id="AgL-QL-faf"/>
                             <constraint firstItem="Y33-zI-Idw" firstAttribute="leading" secondItem="JQz-qN-Vuc" secondAttribute="leading" constant="20" id="H6P-8m-PiC"/>
                             <constraint firstItem="6t5-gS-FgT" firstAttribute="top" secondItem="i4S-BL-ENq" secondAttribute="bottom" constant="24" id="HD5-0o-KkN"/>
@@ -268,7 +269,6 @@
                             <constraint firstItem="MQv-zZ-AmA" firstAttribute="top" secondItem="6t5-gS-FgT" secondAttribute="bottom" constant="12" id="mWk-GQ-7dc"/>
                             <constraint firstItem="JQz-qN-Vuc" firstAttribute="trailing" secondItem="8aA-wN-AO1" secondAttribute="trailing" constant="20" id="okh-89-hEw"/>
                             <constraint firstItem="2C2-8x-h3V" firstAttribute="top" secondItem="MWV-jo-A0N" secondAttribute="bottom" constant="12" id="smS-IG-dqb"/>
-                            <constraint firstItem="MWV-jo-A0N" firstAttribute="top" secondItem="JQz-qN-Vuc" secondAttribute="top" id="sur-0J-dRz"/>
                             <constraint firstItem="8aA-wN-AO1" firstAttribute="top" secondItem="fAT-aT-oBU" secondAttribute="bottom" constant="48" id="tyW-5U-SVI"/>
                         </constraints>
                     </view>
@@ -637,6 +637,36 @@
             </objects>
             <point key="canvasLocation" x="26.717557251908396" y="-575.35211267605632"/>
         </scene>
+        <!--alert-->
+        <scene sceneID="WK6-b5-Ibg">
+            <objects>
+                <viewController id="V2g-ei-nZO" customClass="AlertButtonViewController" customModule="sesac_1w_240517_assignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZsF-2x-qdZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dye-XP-1Kd">
+                                <rect key="frame" x="166" y="409" width="61" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Alert"/>
+                                <connections>
+                                    <action selector="presentAlert" destination="V2g-ei-nZO" eventType="touchUpInside" id="b5P-QC-faT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gq4-L5-bK5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="alert" image="ellipsis.rectangle" catalog="system" id="yfX-ST-yJf"/>
+                    <connections>
+                        <outlet property="alertButton" destination="dye-XP-1Kd" id="jB4-cj-BxK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ofX-hG-IUa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1874" y="1"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="qKA-9v-8eR">
             <objects>
@@ -647,6 +677,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
+                        <segue destination="V2g-ei-nZO" kind="relationship" relationship="viewControllers" id="SRe-Ty-1oC"/>
                         <segue destination="zdG-6g-mye" kind="relationship" relationship="viewControllers" id="p8d-mk-hZP"/>
                         <segue destination="3ff-aa-jqo" kind="relationship" relationship="viewControllers" id="8UN-3e-tfw"/>
                         <segue destination="SAm-Ps-41I" kind="relationship" relationship="viewControllers" id="0c7-yv-cR7"/>
@@ -661,6 +692,7 @@
     </scenes>
     <resources>
         <image name="background" width="300" height="300"/>
+        <image name="ellipsis.rectangle" catalog="system" width="128" height="79"/>
         <image name="figure.stand" catalog="system" width="74" height="128"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="music.note" catalog="system" width="96" height="128"/>

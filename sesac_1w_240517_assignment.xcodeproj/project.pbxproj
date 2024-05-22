@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		811078282BFD715E0087FC1B /* AlertButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811078272BFD715E0087FC1B /* AlertButtonViewController.swift */; };
 		813B36282BFC1B9B00A8CD19 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B36272BFC1B9B00A8CD19 /* LoginViewController.swift */; };
 		8152F0A72BFC83FA00B7E4A9 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152F0A62BFC83FA00B7E4A9 /* BMIViewController.swift */; };
 		815A76D12BF99A8D00904AAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815A76D02BF99A8D00904AAF /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		811078272BFD715E0087FC1B /* AlertButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertButtonViewController.swift; sourceTree = "<group>"; };
 		813B36272BFC1B9B00A8CD19 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8152F0A62BFC83FA00B7E4A9 /* BMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
 		815A76CD2BF99A8D00904AAF /* sesac_1w_240517_assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sesac_1w_240517_assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 				815A76D22BF99A8D00904AAF /* SceneDelegate.swift */,
 				815A76D42BF99A8D00904AAF /* ViewController.swift */,
 				815A76D62BF99A8D00904AAF /* Main.storyboard */,
+				811078272BFD715E0087FC1B /* AlertButtonViewController.swift */,
 				8152F0A62BFC83FA00B7E4A9 /* BMIViewController.swift */,
 				81605AF72BF9B1A30056B6E9 /* newlySearchViewController.swift */,
 				815A76D92BF99A8E00904AAF /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 				81605AF62BF99EDD0056B6E9 /* EmotionDiaryViewController.swift in Sources */,
 				81605AF82BF9B1A30056B6E9 /* newlySearchViewController.swift in Sources */,
 				815A76D52BF99A8D00904AAF /* ViewController.swift in Sources */,
+				811078282BFD715E0087FC1B /* AlertButtonViewController.swift in Sources */,
 				815A76D12BF99A8D00904AAF /* AppDelegate.swift in Sources */,
 				815A76D32BF99A8D00904AAF /* SceneDelegate.swift in Sources */,
 			);
