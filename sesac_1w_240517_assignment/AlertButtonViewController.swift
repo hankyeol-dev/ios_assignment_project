@@ -9,21 +9,32 @@ import UIKit
 
 class AlertButtonViewController: UIViewController {
 
+    @IBOutlet var alertButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func presentAlert() {
+        let alert = UIAlertController(
+            title: nil,
+            message: nil,
+            preferredStyle: .actionSheet
+        )
+        
+        alert.addAction(
+            UIAlertAction(title: "확인", style: .default)
+        )
+        alert.addAction(
+            UIAlertAction(
+                title: "취소",
+                style: .cancel,
+                handler: {
+                    action in
+                    self.alertButton.setTitle("버튼 이름 변경", for: .normal)
+        }))
+        
+        present(alert, animated: true)
     }
-    */
-
 }

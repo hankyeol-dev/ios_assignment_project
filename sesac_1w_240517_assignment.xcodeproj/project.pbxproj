@@ -18,6 +18,8 @@
 		815A76DD2BF99A8E00904AAF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 815A76DC2BF99A8E00904AAF /* Base */; };
 		81605AF62BF99EDD0056B6E9 /* EmotionDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81605AF52BF99EDD0056B6E9 /* EmotionDiaryViewController.swift */; };
 		81605AF82BF9B1A30056B6E9 /* newlySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81605AF72BF9B1A30056B6E9 /* newlySearchViewController.swift */; };
+		8180FD4F2BFF3D9F0065AA9E /* Table.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8180FD4E2BFF3D9F0065AA9E /* Table.storyboard */; };
+		8180FD512BFF44060065AA9E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8180FD502BFF44060065AA9E /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		815A76DE2BF99A8E00904AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81605AF52BF99EDD0056B6E9 /* EmotionDiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDiaryViewController.swift; sourceTree = "<group>"; };
 		81605AF72BF9B1A30056B6E9 /* newlySearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newlySearchViewController.swift; sourceTree = "<group>"; };
+		8180FD4E2BFF3D9F0065AA9E /* Table.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Table.storyboard; sourceTree = "<group>"; };
+		8180FD502BFF44060065AA9E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,15 +73,17 @@
 				815A76D02BF99A8D00904AAF /* AppDelegate.swift */,
 				815A76D22BF99A8D00904AAF /* SceneDelegate.swift */,
 				815A76D42BF99A8D00904AAF /* ViewController.swift */,
-				815A76D62BF99A8D00904AAF /* Main.storyboard */,
 				811078272BFD715E0087FC1B /* AlertButtonViewController.swift */,
 				8152F0A62BFC83FA00B7E4A9 /* BMIViewController.swift */,
 				81605AF72BF9B1A30056B6E9 /* newlySearchViewController.swift */,
 				815A76D92BF99A8E00904AAF /* Assets.xcassets */,
-				815A76DB2BF99A8E00904AAF /* LaunchScreen.storyboard */,
 				815A76DE2BF99A8E00904AAF /* Info.plist */,
 				81605AF52BF99EDD0056B6E9 /* EmotionDiaryViewController.swift */,
 				813B36272BFC1B9B00A8CD19 /* LoginViewController.swift */,
+				815A76D62BF99A8D00904AAF /* Main.storyboard */,
+				815A76DB2BF99A8E00904AAF /* LaunchScreen.storyboard */,
+				8180FD4E2BFF3D9F0065AA9E /* Table.storyboard */,
+				8180FD502BFF44060065AA9E /* TableViewCell.swift */,
 			);
 			path = sesac_1w_240517_assignment;
 			sourceTree = "<group>";
@@ -143,6 +149,7 @@
 				815A76DA2BF99A8E00904AAF /* Assets.xcassets in Resources */,
 				815A76DD2BF99A8E00904AAF /* Base in Resources */,
 				815A76D82BF99A8D00904AAF /* Base in Resources */,
+				8180FD4F2BFF3D9F0065AA9E /* Table.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +163,7 @@
 				813B36282BFC1B9B00A8CD19 /* LoginViewController.swift in Sources */,
 				8152F0A72BFC83FA00B7E4A9 /* BMIViewController.swift in Sources */,
 				81605AF62BF99EDD0056B6E9 /* EmotionDiaryViewController.swift in Sources */,
+				8180FD512BFF44060065AA9E /* TableViewCell.swift in Sources */,
 				81605AF82BF9B1A30056B6E9 /* newlySearchViewController.swift in Sources */,
 				815A76D52BF99A8D00904AAF /* ViewController.swift in Sources */,
 				811078282BFD715E0087FC1B /* AlertButtonViewController.swift in Sources */,

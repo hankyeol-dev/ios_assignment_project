@@ -92,6 +92,7 @@ class BMIViewController: UIViewController {
                     self.userHeight = 0
                     self.heightField.text = ""
                     self.weightField.text = ""
+                    self.weightField.becomeFirstResponder()
                 } : nil
             )
         )
