@@ -39,8 +39,7 @@ class TableViewControllerCell: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellTemplate = tableView.dequeueReusableCell(withIdentifier: "assignmentTable", for: indexPath)
         
-        
-        
+
         cellTemplate.textLabel?.text = tableDatas[indexPath.section][ indexPath.row]
         return cellTemplate
         
